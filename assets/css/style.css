@@ -1,0 +1,60 @@
+.rocks {
+	width: 140px;
+}
+
+body {
+	background-color: #DAA520;
+	 -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: black;}
+    to {background-color: #DAA520;}
+
+ }
+
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: black;}
+    to {background-color: #DAA520;}
+ }
+
+ h1{
+ 	text-shadow: 2px 2px;
+ }
+
+ #randomNumber{
+ 	font-size: 40px;
+ 	font-weight: bold;
+ }
+
+ #wins{
+ 	font-size: large;
+ 	font-weight: bold;
+ }
+
+ #losses{
+ 	font-size: large;
+ 	font-weight: bold;
+ }
+
+#instructions {
+	color: white;
+	background: black;
+}
+
+#score {
+	font-size: x-large;
+}
+
+
+
+
+
+
+
